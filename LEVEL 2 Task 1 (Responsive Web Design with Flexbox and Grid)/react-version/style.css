@@ -1,0 +1,189 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+/* Glassmorphism */
+.glass-header, .glass-nav, .glass-footer {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 1rem 2rem;
+    width: 90%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+}
+
+/* Navigation */
+.glass-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: bold;
+}
+.glass-nav a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+.glass-nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background: #333;
+    transition: 0.3s;
+}
+.glass-nav a:hover::after {
+    width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+    padding: 2rem;
+}
+.hero-content {
+    background: rgba(255,255,255,0.2);
+    padding: 2rem;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+.hero-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.hero-content button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.hero-content button:hover {
+    transform: translateY(-5px);
+}
+
+/* Gallery Section (Grid) */
+.gallery-section {
+    padding: 2rem;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+.gallery-item {
+    background: rgba(255,255,255,0.3);
+    padding: 3rem;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+/* Blog Section (Flexbox) */
+.blog-section {
+    padding: 2rem;
+}
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.blog-card {
+    background: rgba(255,255,255,0.2);
+    padding: 2rem;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.blog-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+.glass-footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+#toggleBtn {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+}
+#toggleBtn:hover {
+    background: rgba(0,0,0,0.1);
+}
+
+/* Dark Theme */
+body.dark {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f0f0f0;
+}
+body.dark .glass-header,
+body.dark .glass-nav,
+body.dark .glass-footer,
+body.dark .hero-content,
+body.dark .gallery-item,
+body.dark .blog-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-section {
+        height: auto;
+        padding: 1rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* React specific adjustments */
+#root {
+    min-height: 100vh;
+}

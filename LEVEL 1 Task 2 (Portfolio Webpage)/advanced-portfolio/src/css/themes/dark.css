@@ -1,0 +1,94 @@
+/* Dark Mode Variables */
+[data-theme="dark"] {
+    --primary-color: #8a2be2;
+    --secondary-color: #4169e1;
+    --accent-color: #ffd700;
+    --text-color: #f0f0f0;
+    --bg-color: #121212;
+    --card-bg: rgba(30, 30, 30, 0.8);
+    --shadow-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .hero-section {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+[data-theme="dark"] .glassmorphism {
+    background: rgba(30, 30, 30, 0.25);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .card {
+    background: rgba(30, 30, 30, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .btn {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+}
+
+[data-theme="dark"] footer {
+    background: #1a1a1a;
+}
+
+/* Dark Mode Toggle Switch */
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode-checkbox {
+    display: none;
+}
+
+.dark-mode-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    height: 30px;
+    background: #ccc;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.dark-mode-label .fas {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dark-mode-label .fa-moon {
+    color: #333;
+}
+
+.dark-mode-slider {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 50%;
+    transition: var(--transition);
+    left: 4px;
+}
+
+.dark-mode-checkbox:checked + .dark-mode-label .dark-mode-slider {
+    transform: translateX(30px);
+}
+
+[data-theme="dark"] .dark-mode-label {
+    background: #555;
+}
+
+[data-theme="dark"] .dark-mode-label .fa-sun {
+    color: #333;
+}
+
+[data-theme="dark"] .dark-mode-label .fa-moon {
+    color: #ffd700;
+}

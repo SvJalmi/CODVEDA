@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreya Jalmi | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/themes/dark.css">
+    <link rel="stylesheet" href="css/themes/glassmorphism.css">
+    <link rel="stylesheet" href="components/navbar.css">
+    <link rel="stylesheet" href="components/about.css">
+    <link rel="stylesheet" href="components/projects.css">
+    <link rel="stylesheet" href="components/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Glassmorphism Animated Navbar with Dark Mode Switcher -->
+    <nav class="navbar glassmorphism">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Shreya<span>.</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="dark-mode-toggle">
+                <input type="checkbox" id="dark-mode-switch" class="dark-mode-checkbox">
+                <label for="dark-mode-switch" class="dark-mode-label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <span class="dark-mode-slider"></span>
+                </label>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Shreya Jalmi</span></h1>
+            <p>Full Stack Developer | AI Enthusiast | Designer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section glassmorphism">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate developer skilled in MERN Stack, Java, C++, and UI/UX Design. I love building intuitive user experiences and solving complex problems with elegant code.
+            </p>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill">
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, MongoDB</p>
+                </div>
+                <div class="skill">
+                    <h3>Other</h3>
+                    <p>Java, C++, Python, UI/UX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-cards">
+                <div class="card glassmorphism">
+                    <img src="assets/images/project1.jpg" alt="Smart Shop">
+                    <div class="card-content">
+                        <h3>Smart Shop</h3>
+                        <p>An AI-powered pantry manager with barcode scanning, allergen alerts, and recipe suggestions.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="card glassmorphism">
+                    <img src="assets/images/project2.jpg" alt="FixGenie">
+                    <div class="card-content">
+                        <h3>FixGenie</h3>
+                        <p>AI-powered Code Analysis & Mentorship Platform supporting 320+ languages with GPT-4o.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="card glassmorphism">
+                    <img src="assets/images/project3.jpg" alt="Portfolio">
+                    <div class="card-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Responsive portfolio website with dark mode and glassmorphism effects.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container glassmorphism">
+            <h2>Contact Me</h2>
+            <p>Let's collaborate or just have a chat!</p>
+            <a href="mailto:shreyajalmi@example.com" class="btn">Send an Email</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shreya Jalmi. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/dark-mode.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@ai/*": ["ai/*"],
+      "@ml/*": ["ml/*"],
+      "@iot/*": ["iot/*"],
+      "@swarm/*": ["swarm/*"],
+      "@nlp/*": ["nlp/*"],
+      "@data-science/*": ["data-science/*"],
+      "@styles/*": ["styles/*"],
+      "@types/*": ["types/*"]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

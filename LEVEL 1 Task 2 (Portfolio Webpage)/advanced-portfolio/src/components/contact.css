@@ -1,0 +1,69 @@
+/* Contact Section Styles */
+.contact-section {
+    padding: 100px 0;
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    margin: 50px 0;
+    border-radius: 20px;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-section .btn {
+    background: white;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.contact-section .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact-section .glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 60px 20px;
+    }
+    
+    .contact-section h2 {
+        font-size: 2rem;
+    }
+    
+    .contact-section p {
+        font-size: 1rem;
+    }
+    
+    .contact-section .glassmorphism {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-section {
+        padding: 40px 15px;
+        margin: 30px 0;
+    }
+    
+    .contact-section .glassmorphism {
+        padding: 20px 15px;
+    }
+}
