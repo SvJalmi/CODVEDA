@@ -1,4 +1,5 @@
 # Responsive Web Design with Flexbox and Grid
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project demonstrates a responsive website built with Flexbox and CSS Grid, featuring a modern glassmorphism design with light/dark mode toggle, scroll animations, and a React componentized version.
 
