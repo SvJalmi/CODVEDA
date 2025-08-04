@@ -1,4 +1,5 @@
 # Multi-Color Website
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 The Multi-Color Website is a responsive static website designed to showcase various features using advanced HTML and CSS techniques. It includes a homepage, about page, and contact page, all styled with custom animations and hover effects.
