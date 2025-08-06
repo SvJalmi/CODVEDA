@@ -1,6 +1,7 @@
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 # SmartWeatherAI – AI + IoT Powered Weather Dashboard
 
-![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 ## 🚀 Features
 
