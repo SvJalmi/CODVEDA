@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 # CODVEDA - Web Development Project
 
 
