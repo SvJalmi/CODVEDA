@@ -1,5 +1,6 @@
-# CODVEDA - Web Development Project
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# CODVEDA - Web Development Project
+
 
 Welcome to the CODVEDA project, a comprehensive web development repository containing multiple tasks and projects organized by skill level.
 
