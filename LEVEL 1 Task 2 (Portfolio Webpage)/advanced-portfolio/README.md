@@ -1,5 +1,6 @@
-# Advanced Personal Portfolio Website
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Advanced Personal Portfolio Website
+
 
 A modern, responsive portfolio website with advanced CSS features including glassmorphism, dark mode toggle, animations, and more.
 
