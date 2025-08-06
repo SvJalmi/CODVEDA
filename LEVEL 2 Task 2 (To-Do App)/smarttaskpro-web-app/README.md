@@ -1,5 +1,6 @@
-# SmartTaskPro - AI-Enhanced To-Do List Web App
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+# SmartTaskPro - AI-Enhanced To-Do List Web App
+
 ## Overview
 SmartTaskPro is an AI-enhanced to-do list web application designed to help users manage their tasks efficiently. By leveraging advanced technologies such as Artificial Intelligence (AI), Machine Learning (ML), Internet of Things (IoT), Swarm Intelligence, Natural Language Processing (NLP), and Data Science, SmartTaskPro provides a modern and responsive user experience.
 
