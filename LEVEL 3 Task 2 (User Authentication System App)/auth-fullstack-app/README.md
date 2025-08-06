@@ -1,5 +1,6 @@
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 # Auth Fullstack App
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 ## Overview
 This project is a full-stack user authentication system built with Node.js, Express, MongoDB, and a modern, animated frontend using HTML, CSS, and JavaScript. It allows users to register, log in, and access protected routes using JWT (JSON Web Tokens) for session management.
