@@ -1,5 +1,6 @@
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 # BlogifyPro
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
 BlogifyPro is a full-stack blogging application that allows users to create, edit, and manage blog posts with advanced features. This application is built using a modern tech stack, providing a seamless user experience and robust backend functionality.
 
